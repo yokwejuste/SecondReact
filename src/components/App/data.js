@@ -1,4 +1,5 @@
-export default [
+// eslint-disable-next-line import/no-anonymous-default-export
+const arr = [
     {
         name: 'Lion',
         scientificName: 'Panthero leo',
@@ -25,3 +26,5 @@ export default [
         }
     }
 ]
+
+export default arr;
